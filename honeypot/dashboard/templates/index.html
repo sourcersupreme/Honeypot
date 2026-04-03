@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Honeypot Dashboard</title>
+</head>
+<body>
+    <h1>🛡️ Honeypot Dashboard</h1>
+
+    <p>Total Attacks: {{ total }}</p>
+    <p>Unique IPs: {{ unique_ips }}</p>
+
+    <table border="1">
+        <tr>
+            <th>IP</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Time</th>
+        </tr>
+        {% for entry in data %}
+        <tr>
+            <td>{{ entry.ip }}</td>
+            <td>{{ entry.username }}</td>
+            <td>{{ entry.password }}</td>
+            <td>{{ entry.time }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
