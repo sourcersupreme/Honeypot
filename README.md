@@ -35,11 +35,31 @@ Socket Programming
 
 File Handling
 
-git clone https://github.com/yourusername/Honeypot.git
+## 🚀 How to Run
 
-cd honeypot
+### Step 1: Clone Repo
+
+git clone https://github.com/yourusername/advanced-honeypot.git
+cd advanced-honeypot
+
+### Step 2: Install Dependencies
 
 pip install -r requirements.txt
 
-chmod +x run.sh
-./run.sh
+### Step 3: Run Honeypot Server (IMPORTANT)
+
+python3 -m honeypot.server
+
+### Step 4: Run Dashboard
+
+cd dashboard
+python3 app.py
+
+### Step 5: Test
+
+Open new terminal:
+nc localhost 9999
+
+Then open browser:
+http://localhost:5000
+
