@@ -63,3 +63,4 @@ nc localhost 9999
 Then open browser:
 http://localhost:5000
 
+⚠️ Note: Run using module mode (-m) to avoid import errors.
