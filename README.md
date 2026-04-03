@@ -34,3 +34,12 @@ Python 3
 Socket Programming
 
 File Handling
+
+git clone https://github.com/yourusername/Honeypot.git
+
+cd honeypot
+
+pip install -r requirements.txt
+
+chmod +x run.sh
+./run.sh
