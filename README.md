@@ -66,8 +66,13 @@ http://localhost:5000
 ⚠️ Note: Run using module mode (-m) to avoid import errors.
 
 git clone <your-repo>
+
 cd advanced-honeypot
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
+
 python3 -m honeypot.server
