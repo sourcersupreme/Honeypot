@@ -12,6 +12,7 @@ Log IP addresses and timestamps
 Provide basic attack analysis
 
 ⚙️ Features
+
 Fake login service (socket-based)
 Real-time connection logging
 Credential capture (username/password)
@@ -19,6 +20,7 @@ Log file storage for analysis
 Lightweight and easy to deploy
 
 🛠️ Tech Stack
+
 Python 3
 Socket Programming
 File Handling
